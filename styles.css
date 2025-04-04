@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Uthman Naskh';
+    src: local('KFGQPC Uthman Taha Naskh'),
+         url(https://raw.githubusercontent.com/mustafa0x/qpc-fonts/f93bf5f3/various-woff2/UthmanTN1%20Ver10.woff2);
+}
+*{
+    margin: 0px; 
+    padding: 0px;
+    font-family: century;
+}
+
+header{      
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../b.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 40px;
+    min-width: 500px;
+    margin-right: 70px;
+    font-size: 17px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: beige;
+    color: gray;
+}
+
+ul li.active a{
+    background-color: beige;
+    color: gray;
+}
+
+.logo img{
+    float:left;
+    width: 150px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 45%;
+    left: 51%;
+    transform: translate(-50%,-50%);
+}
+.bismillah{
+    position: absolute;
+    top: 45%;
+    left: 51%;
+    transform: translate(-50%,-50%);
+}
+.bismillah h1{
+    color: beige;
+    font-size: 30px;
+    font-family: 'Uthman Naskh';
+}
+.bismillah h2{
+    color: beige;
+    font-size: 23px;
+    font-family: 'Uthman Naskh';
+}
+.title h1{
+    color: beige;
+    font-size: 70px;
+}
+
+.button{
+    position: absolute;
+    top: 55%;
+    left: 51.5%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color: beige;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.QuranButton{
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color: beige;
+    transition: 0.5 ease;
+    font-size: 18px;
+    font-family: 'Uthman Naskh';
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: beige;
+    color: gray;
+}
