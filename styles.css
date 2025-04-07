@@ -11,10 +11,10 @@
 
 header{      
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../b.jpg);
-    height: 100vh;
+    height: 300vh;
     background-size: cover;
     background-position: center;
-    min-height: 100px;
+    min-height: 300px;
 }
 ul{
     float: right;
@@ -28,7 +28,7 @@ ul{
 
 ul li{
     display: inline-block;
-    margin: 0 15px;
+    margin: 15px;
 }
 
 ul li a{
